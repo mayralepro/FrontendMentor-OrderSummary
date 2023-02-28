@@ -29,19 +29,26 @@ button {
 }
 
 
-.change:hover button {
+.change:hover {
     color: rgb(139, 78, 238);
+    text-decoration: none;
 }
 
-.payment:hover button {
+.payment:hover {
     background-color: rgb(139, 78, 238);
 }
 
-.order:hover button {
+.order:hover {
     color: var(--darkblue);
 }
 
 /* Container */
+
+.card {
+    box-shadow: 1px 5px 25px rgb(170, 177, 235);
+    border-radius: 20px;
+}
+
 
 .container {
     display: flex;
@@ -68,7 +75,7 @@ button {
 .img {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 350px;
+    width: 400px;
     background-color: var(--verypaleblue);
 }
 
@@ -92,7 +99,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 350px;
+    width: 400px;
     height: 150px;
     background-color: white;
 }
@@ -113,7 +120,7 @@ h1 {
 .section2 {
     height: auto;
     overflow: hidden;
-    width: 350px;
+    width: 400px;
     height: 75px;
     background-color: white;
     display: flex;
@@ -145,13 +152,14 @@ h1 {
 
 }
 
-.change button {
+.change {
     font-family: 'Red Hat Display';
     font-weight: 700;
     background-color: var(--verypaleblue);
     color: var(--brightblue);
     border: none;
     padding-left: 50px;
+    cursor: pointer;
 }
 
 
@@ -176,7 +184,7 @@ h1 {
 .section3 {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 350px;
+    width: 400px;
     height: 175px;
     background-color: white;
     display: flex;
@@ -186,7 +194,7 @@ h1 {
 
 }
 
-.payment button {
+.payment {
     width: 280px;
     background-color: var(--brightblue);
     color: var(--verypaleblue);
@@ -195,19 +203,22 @@ h1 {
     font-weight: 700;
     font-size: 12px;
     letter-spacing: 0.8px;
+    text-align: center;
+    text-decoration: none;
     box-shadow: 1px 15px 25px 1px rgb(218, 211, 255);
 }
 
-.order button {
+.order {
     border: none;
     font-weight: 700;
     font-size: 14px;
     background-color: (var(--verypaleblue));
     color: var(--desaturatedblue);
     padding-bottom: 14px;
+    text-decoration: none;
 }
 
-.change button {
+.change {
     text-decoration: underline;
     font-weight: 800;
 }

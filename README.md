@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/order-summary-card-using-flexbox-and-css-grid-5pIPCLnoTf)
+- Live Site URL: [Netlify](https://ml-frontendmentor-order.netlify.app/)
 
 
 ### Built with
